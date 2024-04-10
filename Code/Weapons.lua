@@ -185,10 +185,10 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK74M"].is_tog_patched = true
 	g_Classes["MoW_AR_AK74M"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK74M"].rat_weigth = 3600
-	g_Classes["MoW_AR_AK74M"].Damage = 30
+	g_Classes["MoW_AR_AK74M"].Damage = 24
 	g_Classes["MoW_AR_AK74M"].WeaponRange = 26
 	g_Classes["MoW_AR_AK74M"].Noise = 20
-	g_Classes["MoW_AR_AK74M"].AimAccuracy = 2
+	g_Classes["MoW_AR_AK74M"].AimAccuracy = 5
 	g_Classes["MoW_AR_AK74M"].APStance = 4
 	g_Classes["MoW_AR_AK74M"].Rat_swap_ap = 3
 	g_Classes["MoW_AR_AK74M"].PointBlankBonus = 1
@@ -218,7 +218,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_M4"].Damage = 23
 	g_Classes["MoW_AR_M4"].WeaponRange = 24
 	g_Classes["MoW_AR_M4"].Noise = 19
-	g_Classes["MoW_AR_M4"].AimAccuracy = 4
+	g_Classes["MoW_AR_M4"].AimAccuracy = 5
 	g_Classes["MoW_AR_M4"].APStance = 4
 	g_Classes["MoW_AR_M4"].Rat_swap_ap = 3
 	g_Classes["MoW_AR_M4"].PointBlankBonus = 1
@@ -336,7 +336,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK15"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK15"].rat_weigth = 3500
 	g_Classes["MoW_AR_AK15"].Damage = 25
-	g_Classes["MoW_AR_AK15"].WeaponRange = 28
+	g_Classes["MoW_AR_AK15"].WeaponRange = 29
 	g_Classes["MoW_AR_AK15"].Noise = 19
 	g_Classes["MoW_AR_AK15"].AimAccuracy = 6
 	g_Classes["MoW_AR_AK15"].APStance = 4
@@ -366,7 +366,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK15k"].rat_barrel_len = 330
 	g_Classes["MoW_AR_AK15k"].rat_weigth = 3500
 	g_Classes["MoW_AR_AK15k"].Damage = 25
-	g_Classes["MoW_AR_AK15k"].WeaponRange = 23
+	g_Classes["MoW_AR_AK15k"].WeaponRange = 25
 	g_Classes["MoW_AR_AK15k"].Noise = 19
 	g_Classes["MoW_AR_AK15k"].AimAccuracy = 4
 	g_Classes["MoW_AR_AK15k"].APStance = 3
@@ -396,7 +396,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK12"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK12"].rat_weigth = 3500
 	g_Classes["MoW_AR_AK12"].Damage = 24
-	g_Classes["MoW_AR_AK12"].WeaponRange = 26
+	g_Classes["MoW_AR_AK12"].WeaponRange = 28
 	g_Classes["MoW_AR_AK12"].Noise = 19
 	g_Classes["MoW_AR_AK12"].AimAccuracy = 6
 	g_Classes["MoW_AR_AK12"].APStance = 4
@@ -426,7 +426,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK12K"].rat_barrel_len = 330
 	g_Classes["MoW_AR_AK12K"].rat_weigth = 3500
 	g_Classes["MoW_AR_AK12K"].Damage = 24
-	g_Classes["MoW_AR_AK12K"].WeaponRange = 22
+	g_Classes["MoW_AR_AK12K"].WeaponRange = 24
 	g_Classes["MoW_AR_AK12K"].Noise = 19
 	g_Classes["MoW_AR_AK12K"].AimAccuracy = 4
 	g_Classes["MoW_AR_AK12K"].APStance = 3
@@ -545,12 +545,12 @@ function RatoMoWWeapons()
 	g_Classes["MoW_MG_PKP"].is_tog_patched = true
 	g_Classes["MoW_MG_PKP"].rat_barrel_len = 660
 	g_Classes["MoW_MG_PKP"].rat_weigth = 10000
-	g_Classes["MoW_MG_PKP"].Damage = 23
-	g_Classes["MoW_MG_PKP"].WeaponRange = 30
-	g_Classes["MoW_MG_PKP"].Noise = 20
-	g_Classes["MoW_MG_PKP"].AimAccuracy = 4
-	g_Classes["MoW_MG_PKP"].APStance = 5
-	g_Classes["MoW_MG_PKP"].Rat_swap_ap = 3
+	g_Classes["MoW_MG_PKP"].Damage = 32
+	g_Classes["MoW_MG_PKP"].WeaponRange = 34
+	g_Classes["MoW_MG_PKP"].Noise = 30
+	g_Classes["MoW_MG_PKP"].AimAccuracy = 5
+	g_Classes["MoW_MG_PKP"].APStance = 6
+	g_Classes["MoW_MG_PKP"].Rat_swap_ap = 4
 	g_Classes["MoW_MG_PKP"].PointBlankBonus = 1
 	g_Classes["MoW_MG_PKP"].PBbonus_base = -6
 	g_Classes["MoW_MG_PKP"].OverwatchAngle = 378
@@ -665,7 +665,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_Vector45"].is_tog_patched = true
 	g_Classes["MoW_SMG_Vector45"].rat_barrel_len = 140
 	g_Classes["MoW_SMG_Vector45"].rat_weigth = 2800
-	g_Classes["MoW_SMG_Vector45"].Damage = 20
+	g_Classes["MoW_SMG_Vector45"].Damage = 21
 	g_Classes["MoW_SMG_Vector45"].WeaponRange = 18
 	g_Classes["MoW_SMG_Vector45"].Noise = 13
 	g_Classes["MoW_SMG_Vector45"].AimAccuracy = 5
@@ -786,7 +786,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Shot_MP153"].rat_barrel_len = 660
 	g_Classes["MoW_Shot_MP153"].rat_weigth = 3500
 	g_Classes["MoW_Shot_MP153"].Damage = 28
-	g_Classes["MoW_Shot_MP153"].WeaponRange = 8
+	g_Classes["MoW_Shot_MP153"].WeaponRange = 12
 	g_Classes["MoW_Shot_MP153"].Noise = 25
 	g_Classes["MoW_Shot_MP153"].AimAccuracy = 4
 	g_Classes["MoW_Shot_MP153"].APStance = 4
@@ -848,7 +848,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_M1911A1"].Damage = 19
 	g_Classes["MoW_Pistol_M1911A1"].WeaponRange = 14
 	g_Classes["MoW_Pistol_M1911A1"].Noise = 12
-	g_Classes["MoW_Pistol_M1911A1"].AimAccuracy = 2
+	g_Classes["MoW_Pistol_M1911A1"].AimAccuracy = 3
 	g_Classes["MoW_Pistol_M1911A1"].APStance = 1
 	g_Classes["MoW_Pistol_M1911A1"].Rat_swap_ap = 1
 	g_Classes["MoW_Pistol_M1911A1"].PointBlankBonus = 1
