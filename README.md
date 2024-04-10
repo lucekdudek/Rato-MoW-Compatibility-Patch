@@ -2,7 +2,7 @@
 
 Modification for Jagged Alliance 3
 
-#TODO [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=)
+[Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3218335636)
 
 ## How to generate Components.lua
 
