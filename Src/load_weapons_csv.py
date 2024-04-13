@@ -6,6 +6,7 @@ ID = "Id"
 IS_PATCHED = "is_tog_patched"
 BARREL_LEN = "rat_barrel_len"
 WEIGTH = "rat_weigth"
+COST = "Cost"
 DAMAGE = "Damage"
 RANGE = "WeaponRange"
 NOISE = "Noise"
@@ -79,6 +80,7 @@ def get_weapon_lua_snipet(w):
         IS_PATCHED,
         BARREL_LEN,
         WEIGTH,
+        COST,
         DAMAGE,
         RANGE,
         NOISE,
@@ -112,7 +114,9 @@ def get_weapon_lua_snipet(w):
     ]:
         result += f'\tg_Classes["{w[ID]}"].{KEY} = "{w[KEY]}"\n'
 
-    result += f'\tg_Classes["{w[ID]}"].AdditionalHint = T({{ "<description_hints>\\n" .. (g_Classes["{w[ID]}"].AdditionalHint and g_Classes["{w[ID]}"].AdditionalHint[2] or "") }})\n'
+    result += f'\tif not string.find(g_Classes["{w[ID]}"].AdditionalHint and g_Classes["{w[ID]}"].AdditionalHint[2] or "", "<description_hints>") then\n'
+    result += f'\t\tg_Classes["{w[ID]}"].AdditionalHint = T({{ "<description_hints>\\n" .. (g_Classes["{w[ID]}"].AdditionalHint and g_Classes["{w[ID]}"].AdditionalHint[2] or "") }})\n'
+    result += f"\tend\n"
 
     return result
 

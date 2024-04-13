@@ -5,6 +5,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_M723"].is_tog_patched = true
 	g_Classes["MoW_AR_M723"].rat_barrel_len = 360
 	g_Classes["MoW_AR_M723"].rat_weigth = 3600
+	g_Classes["MoW_AR_M723"].Cost = 4500
 	g_Classes["MoW_AR_M723"].Damage = 23
 	g_Classes["MoW_AR_M723"].WeaponRange = 24
 	g_Classes["MoW_AR_M723"].Noise = 19
@@ -30,11 +31,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_M723"].rat_scope_block = false
 	g_Classes["MoW_AR_M723"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_M723"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_M723"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M723"].AdditionalHint and g_Classes["MoW_AR_M723"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_M723"].AdditionalHint and g_Classes["MoW_AR_M723"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_M723"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M723"].AdditionalHint and g_Classes["MoW_AR_M723"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK103"].is_tog_patched = true
 	g_Classes["MoW_AR_AK103"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK103"].rat_weigth = 4100
+	g_Classes["MoW_AR_AK103"].Cost = 6000
 	g_Classes["MoW_AR_AK103"].Damage = 27
 	g_Classes["MoW_AR_AK103"].WeaponRange = 23
 	g_Classes["MoW_AR_AK103"].Noise = 22
@@ -60,11 +64,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK103"].rat_scope_block = false
 	g_Classes["MoW_AR_AK103"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK103"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK103"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK103"].AdditionalHint and g_Classes["MoW_AR_AK103"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK103"].AdditionalHint and g_Classes["MoW_AR_AK103"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK103"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK103"].AdditionalHint and g_Classes["MoW_AR_AK103"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_M16A4"].is_tog_patched = true
 	g_Classes["MoW_AR_M16A4"].rat_barrel_len = 500
 	g_Classes["MoW_AR_M16A4"].rat_weigth = 4000
+	g_Classes["MoW_AR_M16A4"].Cost = 6000
 	g_Classes["MoW_AR_M16A4"].Damage = 24
 	g_Classes["MoW_AR_M16A4"].WeaponRange = 28
 	g_Classes["MoW_AR_M16A4"].Noise = 19
@@ -90,11 +97,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_M16A4"].rat_scope_block = false
 	g_Classes["MoW_AR_M16A4"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_M16A4"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_M16A4"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M16A4"].AdditionalHint and g_Classes["MoW_AR_M16A4"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_M16A4"].AdditionalHint and g_Classes["MoW_AR_M16A4"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_M16A4"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M16A4"].AdditionalHint and g_Classes["MoW_AR_M16A4"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_ACE22"].is_tog_patched = true
 	g_Classes["MoW_AR_ACE22"].rat_barrel_len = 330
 	g_Classes["MoW_AR_ACE22"].rat_weigth = 3800
+	g_Classes["MoW_AR_ACE22"].Cost = 6100
 	g_Classes["MoW_AR_ACE22"].Damage = 24
 	g_Classes["MoW_AR_ACE22"].WeaponRange = 24
 	g_Classes["MoW_AR_ACE22"].Noise = 19
@@ -120,11 +130,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_ACE22"].rat_scope_block = false
 	g_Classes["MoW_AR_ACE22"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_ACE22"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_ACE22"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE22"].AdditionalHint and g_Classes["MoW_AR_ACE22"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_ACE22"].AdditionalHint and g_Classes["MoW_AR_ACE22"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_ACE22"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE22"].AdditionalHint and g_Classes["MoW_AR_ACE22"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_ACE32"].is_tog_patched = true
 	g_Classes["MoW_AR_ACE32"].rat_barrel_len = 400
 	g_Classes["MoW_AR_ACE32"].rat_weigth = 4000
+	g_Classes["MoW_AR_ACE32"].Cost = 6240
 	g_Classes["MoW_AR_ACE32"].Damage = 25
 	g_Classes["MoW_AR_ACE32"].WeaponRange = 26
 	g_Classes["MoW_AR_ACE32"].Noise = 22
@@ -150,11 +163,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_ACE32"].rat_scope_block = false
 	g_Classes["MoW_AR_ACE32"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_ACE32"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_ACE32"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE32"].AdditionalHint and g_Classes["MoW_AR_ACE32"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_ACE32"].AdditionalHint and g_Classes["MoW_AR_ACE32"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_ACE32"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE32"].AdditionalHint and g_Classes["MoW_AR_ACE32"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_ACE52"].is_tog_patched = true
 	g_Classes["MoW_AR_ACE52"].rat_barrel_len = 410
 	g_Classes["MoW_AR_ACE52"].rat_weigth = 4100
+	g_Classes["MoW_AR_ACE52"].Cost = 6860
 	g_Classes["MoW_AR_ACE52"].Damage = 28
 	g_Classes["MoW_AR_ACE52"].WeaponRange = 30
 	g_Classes["MoW_AR_ACE52"].Noise = 24
@@ -180,11 +196,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_ACE52"].rat_scope_block = false
 	g_Classes["MoW_AR_ACE52"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_ACE52"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_ACE52"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE52"].AdditionalHint and g_Classes["MoW_AR_ACE52"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_ACE52"].AdditionalHint and g_Classes["MoW_AR_ACE52"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_ACE52"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_ACE52"].AdditionalHint and g_Classes["MoW_AR_ACE52"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK74M"].is_tog_patched = true
 	g_Classes["MoW_AR_AK74M"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK74M"].rat_weigth = 3600
+	g_Classes["MoW_AR_AK74M"].Cost = 7600
 	g_Classes["MoW_AR_AK74M"].Damage = 24
 	g_Classes["MoW_AR_AK74M"].WeaponRange = 26
 	g_Classes["MoW_AR_AK74M"].Noise = 20
@@ -210,11 +229,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK74M"].rat_scope_block = false
 	g_Classes["MoW_AR_AK74M"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK74M"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK74M"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK74M"].AdditionalHint and g_Classes["MoW_AR_AK74M"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK74M"].AdditionalHint and g_Classes["MoW_AR_AK74M"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK74M"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK74M"].AdditionalHint and g_Classes["MoW_AR_AK74M"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_M4"].is_tog_patched = true
 	g_Classes["MoW_AR_M4"].rat_barrel_len = 360
 	g_Classes["MoW_AR_M4"].rat_weigth = 3400
+	g_Classes["MoW_AR_M4"].Cost = 8100
 	g_Classes["MoW_AR_M4"].Damage = 23
 	g_Classes["MoW_AR_M4"].WeaponRange = 24
 	g_Classes["MoW_AR_M4"].Noise = 19
@@ -240,11 +262,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_M4"].rat_scope_block = false
 	g_Classes["MoW_AR_M4"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_M4"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_M4"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M4"].AdditionalHint and g_Classes["MoW_AR_M4"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_M4"].AdditionalHint and g_Classes["MoW_AR_M4"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_M4"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_M4"].AdditionalHint and g_Classes["MoW_AR_M4"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_HK416"].is_tog_patched = true
 	g_Classes["MoW_AR_HK416"].rat_barrel_len = 420
 	g_Classes["MoW_AR_HK416"].rat_weigth = 4200
+	g_Classes["MoW_AR_HK416"].Cost = 8100
 	g_Classes["MoW_AR_HK416"].Damage = 24
 	g_Classes["MoW_AR_HK416"].WeaponRange = 28
 	g_Classes["MoW_AR_HK416"].Noise = 19
@@ -270,11 +295,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_HK416"].rat_scope_block = false
 	g_Classes["MoW_AR_HK416"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_HK416"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_HK416"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_HK416"].AdditionalHint and g_Classes["MoW_AR_HK416"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_HK416"].AdditionalHint and g_Classes["MoW_AR_HK416"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_HK416"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_HK416"].AdditionalHint and g_Classes["MoW_AR_HK416"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_MARSL"].is_tog_patched = true
 	g_Classes["MoW_AR_MARSL"].rat_barrel_len = 400
 	g_Classes["MoW_AR_MARSL"].rat_weigth = 3700
+	g_Classes["MoW_AR_MARSL"].Cost = 8100
 	g_Classes["MoW_AR_MARSL"].Damage = 24
 	g_Classes["MoW_AR_MARSL"].WeaponRange = 26
 	g_Classes["MoW_AR_MARSL"].Noise = 19
@@ -300,11 +328,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_MARSL"].rat_scope_block = false
 	g_Classes["MoW_AR_MARSL"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_MARSL"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_MARSL"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_MARSL"].AdditionalHint and g_Classes["MoW_AR_MARSL"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_MARSL"].AdditionalHint and g_Classes["MoW_AR_MARSL"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_MARSL"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_MARSL"].AdditionalHint and g_Classes["MoW_AR_MARSL"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_TAR21"].is_tog_patched = true
 	g_Classes["MoW_AR_TAR21"].rat_barrel_len = 450
 	g_Classes["MoW_AR_TAR21"].rat_weigth = 3600
+	g_Classes["MoW_AR_TAR21"].Cost = 8460
 	g_Classes["MoW_AR_TAR21"].Damage = 25
 	g_Classes["MoW_AR_TAR21"].WeaponRange = 30
 	g_Classes["MoW_AR_TAR21"].Noise = 18
@@ -330,11 +361,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_TAR21"].rat_scope_block = false
 	g_Classes["MoW_AR_TAR21"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_TAR21"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_TAR21"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_TAR21"].AdditionalHint and g_Classes["MoW_AR_TAR21"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_TAR21"].AdditionalHint and g_Classes["MoW_AR_TAR21"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_TAR21"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_TAR21"].AdditionalHint and g_Classes["MoW_AR_TAR21"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK15"].is_tog_patched = true
 	g_Classes["MoW_AR_AK15"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK15"].rat_weigth = 3500
+	g_Classes["MoW_AR_AK15"].Cost = 14400
 	g_Classes["MoW_AR_AK15"].Damage = 25
 	g_Classes["MoW_AR_AK15"].WeaponRange = 29
 	g_Classes["MoW_AR_AK15"].Noise = 19
@@ -360,11 +394,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK15"].rat_scope_block = false
 	g_Classes["MoW_AR_AK15"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK15"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK15"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK15"].AdditionalHint and g_Classes["MoW_AR_AK15"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK15"].AdditionalHint and g_Classes["MoW_AR_AK15"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK15"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK15"].AdditionalHint and g_Classes["MoW_AR_AK15"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK15k"].is_tog_patched = true
 	g_Classes["MoW_AR_AK15k"].rat_barrel_len = 330
 	g_Classes["MoW_AR_AK15k"].rat_weigth = 3500
+	g_Classes["MoW_AR_AK15k"].Cost = 16000
 	g_Classes["MoW_AR_AK15k"].Damage = 25
 	g_Classes["MoW_AR_AK15k"].WeaponRange = 25
 	g_Classes["MoW_AR_AK15k"].Noise = 19
@@ -390,11 +427,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK15k"].rat_scope_block = false
 	g_Classes["MoW_AR_AK15k"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK15k"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK15k"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK15k"].AdditionalHint and g_Classes["MoW_AR_AK15k"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK15k"].AdditionalHint and g_Classes["MoW_AR_AK15k"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK15k"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK15k"].AdditionalHint and g_Classes["MoW_AR_AK15k"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK12"].is_tog_patched = true
 	g_Classes["MoW_AR_AK12"].rat_barrel_len = 410
 	g_Classes["MoW_AR_AK12"].rat_weigth = 3500
+	g_Classes["MoW_AR_AK12"].Cost = 16000
 	g_Classes["MoW_AR_AK12"].Damage = 24
 	g_Classes["MoW_AR_AK12"].WeaponRange = 28
 	g_Classes["MoW_AR_AK12"].Noise = 19
@@ -420,11 +460,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK12"].rat_scope_block = false
 	g_Classes["MoW_AR_AK12"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK12"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK12"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK12"].AdditionalHint and g_Classes["MoW_AR_AK12"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK12"].AdditionalHint and g_Classes["MoW_AR_AK12"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK12"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK12"].AdditionalHint and g_Classes["MoW_AR_AK12"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_AR_AK12K"].is_tog_patched = true
 	g_Classes["MoW_AR_AK12K"].rat_barrel_len = 330
 	g_Classes["MoW_AR_AK12K"].rat_weigth = 3500
+	g_Classes["MoW_AR_AK12K"].Cost = 17600
 	g_Classes["MoW_AR_AK12K"].Damage = 24
 	g_Classes["MoW_AR_AK12K"].WeaponRange = 24
 	g_Classes["MoW_AR_AK12K"].Noise = 19
@@ -450,11 +493,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_AR_AK12K"].rat_scope_block = false
 	g_Classes["MoW_AR_AK12K"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_AR_AK12K"].Rat_cycling = "Auto"
-	g_Classes["MoW_AR_AK12K"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK12K"].AdditionalHint and g_Classes["MoW_AR_AK12K"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_AR_AK12K"].AdditionalHint and g_Classes["MoW_AR_AK12K"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_AR_AK12K"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_AR_AK12K"].AdditionalHint and g_Classes["MoW_AR_AK12K"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Sniper_SPR"].is_tog_patched = true
 	g_Classes["MoW_Sniper_SPR"].rat_barrel_len = 610
 	g_Classes["MoW_Sniper_SPR"].rat_weigth = 6000
+	g_Classes["MoW_Sniper_SPR"].Cost = 4600
 	g_Classes["MoW_Sniper_SPR"].Damage = 35
 	g_Classes["MoW_Sniper_SPR"].WeaponRange = 32
 	g_Classes["MoW_Sniper_SPR"].Noise = 30
@@ -480,11 +526,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Sniper_SPR"].rat_scope_block = false
 	g_Classes["MoW_Sniper_SPR"].recoil_mechanism = "Striker_Fired"
 	g_Classes["MoW_Sniper_SPR"].Rat_cycling = "BoltAction"
-	g_Classes["MoW_Sniper_SPR"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_SPR"].AdditionalHint and g_Classes["MoW_Sniper_SPR"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Sniper_SPR"].AdditionalHint and g_Classes["MoW_Sniper_SPR"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Sniper_SPR"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_SPR"].AdditionalHint and g_Classes["MoW_Sniper_SPR"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Sniper_SR25"].is_tog_patched = true
 	g_Classes["MoW_Sniper_SR25"].rat_barrel_len = 510
 	g_Classes["MoW_Sniper_SR25"].rat_weigth = 5000
+	g_Classes["MoW_Sniper_SR25"].Cost = 12800
 	g_Classes["MoW_Sniper_SR25"].Damage = 33
 	g_Classes["MoW_Sniper_SR25"].WeaponRange = 30
 	g_Classes["MoW_Sniper_SR25"].Noise = 20
@@ -510,11 +559,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Sniper_SR25"].rat_scope_block = false
 	g_Classes["MoW_Sniper_SR25"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_Sniper_SR25"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Sniper_SR25"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_SR25"].AdditionalHint and g_Classes["MoW_Sniper_SR25"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Sniper_SR25"].AdditionalHint and g_Classes["MoW_Sniper_SR25"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Sniper_SR25"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_SR25"].AdditionalHint and g_Classes["MoW_Sniper_SR25"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Sniper_Lynx"].is_tog_patched = true
 	g_Classes["MoW_Sniper_Lynx"].rat_barrel_len = 730
 	g_Classes["MoW_Sniper_Lynx"].rat_weigth = 12000
+	g_Classes["MoW_Sniper_Lynx"].Cost = 24000
 	g_Classes["MoW_Sniper_Lynx"].Damage = 60
 	g_Classes["MoW_Sniper_Lynx"].WeaponRange = 36
 	g_Classes["MoW_Sniper_Lynx"].Noise = 30
@@ -540,11 +592,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Sniper_Lynx"].rat_scope_block = false
 	g_Classes["MoW_Sniper_Lynx"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_Sniper_Lynx"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Sniper_Lynx"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_Lynx"].AdditionalHint and g_Classes["MoW_Sniper_Lynx"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Sniper_Lynx"].AdditionalHint and g_Classes["MoW_Sniper_Lynx"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Sniper_Lynx"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Sniper_Lynx"].AdditionalHint and g_Classes["MoW_Sniper_Lynx"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_MG_PKP"].is_tog_patched = true
 	g_Classes["MoW_MG_PKP"].rat_barrel_len = 660
 	g_Classes["MoW_MG_PKP"].rat_weigth = 10000
+	g_Classes["MoW_MG_PKP"].Cost = 15200
 	g_Classes["MoW_MG_PKP"].Damage = 32
 	g_Classes["MoW_MG_PKP"].WeaponRange = 34
 	g_Classes["MoW_MG_PKP"].Noise = 30
@@ -570,11 +625,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_MG_PKP"].rat_scope_block = false
 	g_Classes["MoW_MG_PKP"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_MG_PKP"].Rat_cycling = "Auto"
-	g_Classes["MoW_MG_PKP"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_MG_PKP"].AdditionalHint and g_Classes["MoW_MG_PKP"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_MG_PKP"].AdditionalHint and g_Classes["MoW_MG_PKP"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_MG_PKP"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_MG_PKP"].AdditionalHint and g_Classes["MoW_MG_PKP"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_M45"].is_tog_patched = true
 	g_Classes["MoW_SMG_M45"].rat_barrel_len = 210
 	g_Classes["MoW_SMG_M45"].rat_weigth = 3400
+	g_Classes["MoW_SMG_M45"].Cost = 135
 	g_Classes["MoW_SMG_M45"].Damage = 17
 	g_Classes["MoW_SMG_M45"].WeaponRange = 19
 	g_Classes["MoW_SMG_M45"].Noise = 17
@@ -600,11 +658,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_M45"].rat_scope_block = false
 	g_Classes["MoW_SMG_M45"].recoil_mechanism = "Blowback"
 	g_Classes["MoW_SMG_M45"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_M45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_M45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_vz26"].is_tog_patched = true
 	g_Classes["MoW_SMG_vz26"].rat_barrel_len = 280
 	g_Classes["MoW_SMG_vz26"].rat_weigth = 3200
+	g_Classes["MoW_SMG_vz26"].Cost = 1200
 	g_Classes["MoW_SMG_vz26"].Damage = 18
 	g_Classes["MoW_SMG_vz26"].WeaponRange = 19
 	g_Classes["MoW_SMG_vz26"].Noise = 18
@@ -630,11 +691,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_vz26"].rat_scope_block = false
 	g_Classes["MoW_SMG_vz26"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_SMG_vz26"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_vz26"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_vz26"].AdditionalHint and g_Classes["MoW_SMG_vz26"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_vz26"].AdditionalHint and g_Classes["MoW_SMG_vz26"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_vz26"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_vz26"].AdditionalHint and g_Classes["MoW_SMG_vz26"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_UMP"].is_tog_patched = true
 	g_Classes["MoW_SMG_UMP"].rat_barrel_len = 225
 	g_Classes["MoW_SMG_UMP"].rat_weigth = 3000
+	g_Classes["MoW_SMG_UMP"].Cost = 3300
 	g_Classes["MoW_SMG_UMP"].Damage = 21
 	g_Classes["MoW_SMG_UMP"].WeaponRange = 18
 	g_Classes["MoW_SMG_UMP"].Noise = 15
@@ -660,11 +724,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_UMP"].rat_scope_block = false
 	g_Classes["MoW_SMG_UMP"].recoil_mechanism = "Blowback"
 	g_Classes["MoW_SMG_UMP"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_UMP"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_UMP"].AdditionalHint and g_Classes["MoW_SMG_UMP"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_UMP"].AdditionalHint and g_Classes["MoW_SMG_UMP"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_UMP"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_UMP"].AdditionalHint and g_Classes["MoW_SMG_UMP"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_Vector45"].is_tog_patched = true
 	g_Classes["MoW_SMG_Vector45"].rat_barrel_len = 140
 	g_Classes["MoW_SMG_Vector45"].rat_weigth = 2800
+	g_Classes["MoW_SMG_Vector45"].Cost = 3300
 	g_Classes["MoW_SMG_Vector45"].Damage = 21
 	g_Classes["MoW_SMG_Vector45"].WeaponRange = 18
 	g_Classes["MoW_SMG_Vector45"].Noise = 13
@@ -690,11 +757,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_Vector45"].rat_scope_block = false
 	g_Classes["MoW_SMG_Vector45"].recoil_mechanism = "Blowback"
 	g_Classes["MoW_SMG_Vector45"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_Vector45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_Vector45"].AdditionalHint and g_Classes["MoW_SMG_Vector45"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_Vector45"].AdditionalHint and g_Classes["MoW_SMG_Vector45"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_Vector45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_Vector45"].AdditionalHint and g_Classes["MoW_SMG_Vector45"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_APC9k"].is_tog_patched = true
 	g_Classes["MoW_SMG_APC9k"].rat_barrel_len = 170
 	g_Classes["MoW_SMG_APC9k"].rat_weigth = 2600
+	g_Classes["MoW_SMG_APC9k"].Cost = 4125
 	g_Classes["MoW_SMG_APC9k"].Damage = 19
 	g_Classes["MoW_SMG_APC9k"].WeaponRange = 19
 	g_Classes["MoW_SMG_APC9k"].Noise = 14
@@ -720,11 +790,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_APC9k"].rat_scope_block = false
 	g_Classes["MoW_SMG_APC9k"].recoil_mechanism = "Blowback"
 	g_Classes["MoW_SMG_APC9k"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_APC9k"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_APC9k"].AdditionalHint and g_Classes["MoW_SMG_APC9k"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_APC9k"].AdditionalHint and g_Classes["MoW_SMG_APC9k"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_APC9k"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_APC9k"].AdditionalHint and g_Classes["MoW_SMG_APC9k"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_MP9"].is_tog_patched = true
 	g_Classes["MoW_SMG_MP9"].rat_barrel_len = 130
 	g_Classes["MoW_SMG_MP9"].rat_weigth = 2000
+	g_Classes["MoW_SMG_MP9"].Cost = 4350
 	g_Classes["MoW_SMG_MP9"].Damage = 18
 	g_Classes["MoW_SMG_MP9"].WeaponRange = 19
 	g_Classes["MoW_SMG_MP9"].Noise = 14
@@ -750,11 +823,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_MP9"].rat_scope_block = false
 	g_Classes["MoW_SMG_MP9"].recoil_mechanism = "Blowback"
 	g_Classes["MoW_SMG_MP9"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_MP9"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_MP9"].AdditionalHint and g_Classes["MoW_SMG_MP9"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_MP9"].AdditionalHint and g_Classes["MoW_SMG_MP9"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_MP9"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_MP9"].AdditionalHint and g_Classes["MoW_SMG_MP9"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_SMG_HK416C"].is_tog_patched = true
 	g_Classes["MoW_SMG_HK416C"].rat_barrel_len = 260
 	g_Classes["MoW_SMG_HK416C"].rat_weigth = 3400
+	g_Classes["MoW_SMG_HK416C"].Cost = 10050
 	g_Classes["MoW_SMG_HK416C"].Damage = 21
 	g_Classes["MoW_SMG_HK416C"].WeaponRange = 22
 	g_Classes["MoW_SMG_HK416C"].Noise = 16
@@ -780,11 +856,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_HK416C"].rat_scope_block = false
 	g_Classes["MoW_SMG_HK416C"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_SMG_HK416C"].Rat_cycling = "Auto"
-	g_Classes["MoW_SMG_HK416C"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_HK416C"].AdditionalHint and g_Classes["MoW_SMG_HK416C"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_SMG_HK416C"].AdditionalHint and g_Classes["MoW_SMG_HK416C"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_HK416C"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_HK416C"].AdditionalHint and g_Classes["MoW_SMG_HK416C"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Shot_MP153"].is_tog_patched = true
 	g_Classes["MoW_Shot_MP153"].rat_barrel_len = 660
 	g_Classes["MoW_Shot_MP153"].rat_weigth = 3500
+	g_Classes["MoW_Shot_MP153"].Cost = 10000
 	g_Classes["MoW_Shot_MP153"].Damage = 28
 	g_Classes["MoW_Shot_MP153"].WeaponRange = 12
 	g_Classes["MoW_Shot_MP153"].Noise = 25
@@ -810,11 +889,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Shot_MP153"].rat_scope_block = false
 	g_Classes["MoW_Shot_MP153"].recoil_mechanism = "Gas_Operated"
 	g_Classes["MoW_Shot_MP153"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Shot_MP153"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Shot_MP153"].AdditionalHint and g_Classes["MoW_Shot_MP153"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Shot_MP153"].AdditionalHint and g_Classes["MoW_Shot_MP153"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Shot_MP153"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Shot_MP153"].AdditionalHint and g_Classes["MoW_Shot_MP153"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_TT33"].is_tog_patched = true
 	g_Classes["MoW_Pistol_TT33"].rat_barrel_len = 110
 	g_Classes["MoW_Pistol_TT33"].rat_weigth = 1100
+	g_Classes["MoW_Pistol_TT33"].Cost = 1200
 	g_Classes["MoW_Pistol_TT33"].Damage = 17
 	g_Classes["MoW_Pistol_TT33"].WeaponRange = 16
 	g_Classes["MoW_Pistol_TT33"].Noise = 16
@@ -840,11 +922,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_TT33"].rat_scope_block = false
 	g_Classes["MoW_Pistol_TT33"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_TT33"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_TT33"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_TT33"].AdditionalHint and g_Classes["MoW_Pistol_TT33"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_TT33"].AdditionalHint and g_Classes["MoW_Pistol_TT33"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_TT33"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_TT33"].AdditionalHint and g_Classes["MoW_Pistol_TT33"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_M1911A1"].is_tog_patched = true
 	g_Classes["MoW_Pistol_M1911A1"].rat_barrel_len = 127
 	g_Classes["MoW_Pistol_M1911A1"].rat_weigth = 1200
+	g_Classes["MoW_Pistol_M1911A1"].Cost = 2000
 	g_Classes["MoW_Pistol_M1911A1"].Damage = 19
 	g_Classes["MoW_Pistol_M1911A1"].WeaponRange = 14
 	g_Classes["MoW_Pistol_M1911A1"].Noise = 12
@@ -870,11 +955,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_M1911A1"].rat_scope_block = false
 	g_Classes["MoW_Pistol_M1911A1"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_M1911A1"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_M1911A1"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_M1911A1"].AdditionalHint and g_Classes["MoW_Pistol_M1911A1"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_M1911A1"].AdditionalHint and g_Classes["MoW_Pistol_M1911A1"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_M1911A1"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_M1911A1"].AdditionalHint and g_Classes["MoW_Pistol_M1911A1"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_CZ75B"].is_tog_patched = true
 	g_Classes["MoW_Pistol_CZ75B"].rat_barrel_len = 120
 	g_Classes["MoW_Pistol_CZ75B"].rat_weigth = 1200
+	g_Classes["MoW_Pistol_CZ75B"].Cost = 2400
 	g_Classes["MoW_Pistol_CZ75B"].Damage = 16
 	g_Classes["MoW_Pistol_CZ75B"].WeaponRange = 15
 	g_Classes["MoW_Pistol_CZ75B"].Noise = 14
@@ -900,11 +988,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_CZ75B"].rat_scope_block = false
 	g_Classes["MoW_Pistol_CZ75B"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_CZ75B"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_CZ75B"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_CZ75B"].AdditionalHint and g_Classes["MoW_Pistol_CZ75B"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_CZ75B"].AdditionalHint and g_Classes["MoW_Pistol_CZ75B"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_CZ75B"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_CZ75B"].AdditionalHint and g_Classes["MoW_Pistol_CZ75B"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_P228"].is_tog_patched = true
 	g_Classes["MoW_Pistol_P228"].rat_barrel_len = 100
 	g_Classes["MoW_Pistol_P228"].rat_weigth = 800
+	g_Classes["MoW_Pistol_P228"].Cost = 2800
 	g_Classes["MoW_Pistol_P228"].Damage = 16
 	g_Classes["MoW_Pistol_P228"].WeaponRange = 15
 	g_Classes["MoW_Pistol_P228"].Noise = 12
@@ -930,11 +1021,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_P228"].rat_scope_block = false
 	g_Classes["MoW_Pistol_P228"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_P228"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_P228"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P228"].AdditionalHint and g_Classes["MoW_Pistol_P228"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_P228"].AdditionalHint and g_Classes["MoW_Pistol_P228"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_P228"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P228"].AdditionalHint and g_Classes["MoW_Pistol_P228"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_G19"].is_tog_patched = true
 	g_Classes["MoW_Pistol_G19"].rat_barrel_len = 100
 	g_Classes["MoW_Pistol_G19"].rat_weigth = 800
+	g_Classes["MoW_Pistol_G19"].Cost = 2956
 	g_Classes["MoW_Pistol_G19"].Damage = 16
 	g_Classes["MoW_Pistol_G19"].WeaponRange = 15
 	g_Classes["MoW_Pistol_G19"].Noise = 14
@@ -960,11 +1054,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_G19"].rat_scope_block = false
 	g_Classes["MoW_Pistol_G19"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_G19"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_G19"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G19"].AdditionalHint and g_Classes["MoW_Pistol_G19"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_G19"].AdditionalHint and g_Classes["MoW_Pistol_G19"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_G19"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G19"].AdditionalHint and g_Classes["MoW_Pistol_G19"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_G17"].is_tog_patched = true
 	g_Classes["MoW_Pistol_G17"].rat_barrel_len = 110
 	g_Classes["MoW_Pistol_G17"].rat_weigth = 800
+	g_Classes["MoW_Pistol_G17"].Cost = 2996
 	g_Classes["MoW_Pistol_G17"].Damage = 16
 	g_Classes["MoW_Pistol_G17"].WeaponRange = 15
 	g_Classes["MoW_Pistol_G17"].Noise = 21
@@ -990,11 +1087,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_G17"].rat_scope_block = false
 	g_Classes["MoW_Pistol_G17"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_G17"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_G17"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G17"].AdditionalHint and g_Classes["MoW_Pistol_G17"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_G17"].AdditionalHint and g_Classes["MoW_Pistol_G17"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_G17"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G17"].AdditionalHint and g_Classes["MoW_Pistol_G17"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_P220"].is_tog_patched = true
 	g_Classes["MoW_Pistol_P220"].rat_barrel_len = 110
 	g_Classes["MoW_Pistol_P220"].rat_weigth = 900
+	g_Classes["MoW_Pistol_P220"].Cost = 3120
 	g_Classes["MoW_Pistol_P220"].Damage = 19
 	g_Classes["MoW_Pistol_P220"].WeaponRange = 14
 	g_Classes["MoW_Pistol_P220"].Noise = 21
@@ -1020,11 +1120,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_P220"].rat_scope_block = false
 	g_Classes["MoW_Pistol_P220"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_P220"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_P220"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P220"].AdditionalHint and g_Classes["MoW_Pistol_P220"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_P220"].AdditionalHint and g_Classes["MoW_Pistol_P220"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_P220"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P220"].AdditionalHint and g_Classes["MoW_Pistol_P220"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_G19x"].is_tog_patched = true
 	g_Classes["MoW_Pistol_G19x"].rat_barrel_len = 100
 	g_Classes["MoW_Pistol_G19x"].rat_weigth = 800
+	g_Classes["MoW_Pistol_G19x"].Cost = 3152
 	g_Classes["MoW_Pistol_G19x"].Damage = 16
 	g_Classes["MoW_Pistol_G19x"].WeaponRange = 15
 	g_Classes["MoW_Pistol_G19x"].Noise = 14
@@ -1050,11 +1153,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_G19x"].rat_scope_block = false
 	g_Classes["MoW_Pistol_G19x"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_G19x"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_G19x"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G19x"].AdditionalHint and g_Classes["MoW_Pistol_G19x"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_G19x"].AdditionalHint and g_Classes["MoW_Pistol_G19x"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_G19x"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G19x"].AdditionalHint and g_Classes["MoW_Pistol_G19x"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_G45"].is_tog_patched = true
 	g_Classes["MoW_Pistol_G45"].rat_barrel_len = 100
 	g_Classes["MoW_Pistol_G45"].rat_weigth = 800
+	g_Classes["MoW_Pistol_G45"].Cost = 3156
 	g_Classes["MoW_Pistol_G45"].Damage = 19
 	g_Classes["MoW_Pistol_G45"].WeaponRange = 15
 	g_Classes["MoW_Pistol_G45"].Noise = 14
@@ -1080,11 +1186,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_G45"].rat_scope_block = false
 	g_Classes["MoW_Pistol_G45"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_G45"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_G45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G45"].AdditionalHint and g_Classes["MoW_Pistol_G45"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_G45"].AdditionalHint and g_Classes["MoW_Pistol_G45"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_G45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_G45"].AdditionalHint and g_Classes["MoW_Pistol_G45"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_SP1"].is_tog_patched = true
 	g_Classes["MoW_Pistol_SP1"].rat_barrel_len = 120
 	g_Classes["MoW_Pistol_SP1"].rat_weigth = 1100
+	g_Classes["MoW_Pistol_SP1"].Cost = 3400
 	g_Classes["MoW_Pistol_SP1"].Damage = 16
 	g_Classes["MoW_Pistol_SP1"].WeaponRange = 15
 	g_Classes["MoW_Pistol_SP1"].Noise = 12
@@ -1110,11 +1219,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_SP1"].rat_scope_block = false
 	g_Classes["MoW_Pistol_SP1"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_SP1"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_SP1"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_SP1"].AdditionalHint and g_Classes["MoW_Pistol_SP1"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_SP1"].AdditionalHint and g_Classes["MoW_Pistol_SP1"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_SP1"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_SP1"].AdditionalHint and g_Classes["MoW_Pistol_SP1"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_P320F"].is_tog_patched = true
 	g_Classes["MoW_Pistol_P320F"].rat_barrel_len = 120
 	g_Classes["MoW_Pistol_P320F"].rat_weigth = 900
+	g_Classes["MoW_Pistol_P320F"].Cost = 3476
 	g_Classes["MoW_Pistol_P320F"].Damage = 16
 	g_Classes["MoW_Pistol_P320F"].WeaponRange = 15
 	g_Classes["MoW_Pistol_P320F"].Noise = 14
@@ -1140,11 +1252,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_P320F"].rat_scope_block = false
 	g_Classes["MoW_Pistol_P320F"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_P320F"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_P320F"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P320F"].AdditionalHint and g_Classes["MoW_Pistol_P320F"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_P320F"].AdditionalHint and g_Classes["MoW_Pistol_P320F"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_P320F"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P320F"].AdditionalHint and g_Classes["MoW_Pistol_P320F"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_P320"].is_tog_patched = true
 	g_Classes["MoW_Pistol_P320"].rat_barrel_len = 120
 	g_Classes["MoW_Pistol_P320"].rat_weigth = 1200
+	g_Classes["MoW_Pistol_P320"].Cost = 3516
 	g_Classes["MoW_Pistol_P320"].Damage = 16
 	g_Classes["MoW_Pistol_P320"].WeaponRange = 15
 	g_Classes["MoW_Pistol_P320"].Noise = 14
@@ -1170,11 +1285,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_P320"].rat_scope_block = false
 	g_Classes["MoW_Pistol_P320"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_P320"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_P320"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P320"].AdditionalHint and g_Classes["MoW_Pistol_P320"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_P320"].AdditionalHint and g_Classes["MoW_Pistol_P320"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_P320"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P320"].AdditionalHint and g_Classes["MoW_Pistol_P320"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_GSH18"].is_tog_patched = true
 	g_Classes["MoW_Pistol_GSH18"].rat_barrel_len = 100
 	g_Classes["MoW_Pistol_GSH18"].rat_weigth = 800
+	g_Classes["MoW_Pistol_GSH18"].Cost = 3600
 	g_Classes["MoW_Pistol_GSH18"].Damage = 17
 	g_Classes["MoW_Pistol_GSH18"].WeaponRange = 15
 	g_Classes["MoW_Pistol_GSH18"].Noise = 12
@@ -1200,11 +1318,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_GSH18"].rat_scope_block = false
 	g_Classes["MoW_Pistol_GSH18"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_GSH18"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_GSH18"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_GSH18"].AdditionalHint and g_Classes["MoW_Pistol_GSH18"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_GSH18"].AdditionalHint and g_Classes["MoW_Pistol_GSH18"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_GSH18"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_GSH18"].AdditionalHint and g_Classes["MoW_Pistol_GSH18"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_P226R"].is_tog_patched = true
 	g_Classes["MoW_Pistol_P226R"].rat_barrel_len = 110
 	g_Classes["MoW_Pistol_P226R"].rat_weigth = 1000
+	g_Classes["MoW_Pistol_P226R"].Cost = 4000
 	g_Classes["MoW_Pistol_P226R"].Damage = 16
 	g_Classes["MoW_Pistol_P226R"].WeaponRange = 15
 	g_Classes["MoW_Pistol_P226R"].Noise = 12
@@ -1230,11 +1351,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_P226R"].rat_scope_block = false
 	g_Classes["MoW_Pistol_P226R"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_P226R"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_P226R"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P226R"].AdditionalHint and g_Classes["MoW_Pistol_P226R"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_P226R"].AdditionalHint and g_Classes["MoW_Pistol_P226R"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_P226R"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_P226R"].AdditionalHint and g_Classes["MoW_Pistol_P226R"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_KDW"].is_tog_patched = true
 	g_Classes["MoW_Pistol_KDW"].rat_barrel_len = 130
 	g_Classes["MoW_Pistol_KDW"].rat_weigth = 1300
+	g_Classes["MoW_Pistol_KDW"].Cost = 4900
 	g_Classes["MoW_Pistol_KDW"].Damage = 19
 	g_Classes["MoW_Pistol_KDW"].WeaponRange = 14
 	g_Classes["MoW_Pistol_KDW"].Noise = 12
@@ -1260,11 +1384,14 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_KDW"].rat_scope_block = false
 	g_Classes["MoW_Pistol_KDW"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_KDW"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_KDW"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_KDW"].AdditionalHint and g_Classes["MoW_Pistol_KDW"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_KDW"].AdditionalHint and g_Classes["MoW_Pistol_KDW"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_KDW"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_KDW"].AdditionalHint and g_Classes["MoW_Pistol_KDW"].AdditionalHint[2] or "") })
+	end
 
 	g_Classes["MoW_Pistol_WCVE"].is_tog_patched = true
 	g_Classes["MoW_Pistol_WCVE"].rat_barrel_len = 127
 	g_Classes["MoW_Pistol_WCVE"].rat_weigth = 1100
+	g_Classes["MoW_Pistol_WCVE"].Cost = 5600
 	g_Classes["MoW_Pistol_WCVE"].Damage = 19
 	g_Classes["MoW_Pistol_WCVE"].WeaponRange = 14
 	g_Classes["MoW_Pistol_WCVE"].Noise = 21
@@ -1290,6 +1417,8 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Pistol_WCVE"].rat_scope_block = false
 	g_Classes["MoW_Pistol_WCVE"].recoil_mechanism = "Short_Recoil"
 	g_Classes["MoW_Pistol_WCVE"].Rat_cycling = "SemiAuto"
-	g_Classes["MoW_Pistol_WCVE"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_WCVE"].AdditionalHint and g_Classes["MoW_Pistol_WCVE"].AdditionalHint[2] or "") })
+	if not string.find(g_Classes["MoW_Pistol_WCVE"].AdditionalHint and g_Classes["MoW_Pistol_WCVE"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_Pistol_WCVE"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_Pistol_WCVE"].AdditionalHint and g_Classes["MoW_Pistol_WCVE"].AdditionalHint[2] or "") })
+	end
 
 end
