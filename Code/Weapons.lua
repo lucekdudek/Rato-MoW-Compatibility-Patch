@@ -629,39 +629,6 @@ function RatoMoWWeapons()
 		g_Classes["MoW_MG_PKP"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_MG_PKP"].AdditionalHint and g_Classes["MoW_MG_PKP"].AdditionalHint[2] or "") })
 	end
 
-	g_Classes["MoW_SMG_M45"].is_tog_patched = true
-	g_Classes["MoW_SMG_M45"].rat_barrel_len = 210
-	g_Classes["MoW_SMG_M45"].rat_weigth = 3400
-	g_Classes["MoW_SMG_M45"].Cost = 135
-	g_Classes["MoW_SMG_M45"].Damage = 17
-	g_Classes["MoW_SMG_M45"].WeaponRange = 19
-	g_Classes["MoW_SMG_M45"].Noise = 17
-	g_Classes["MoW_SMG_M45"].AimAccuracy = 2
-	g_Classes["MoW_SMG_M45"].APStance = 2
-	g_Classes["MoW_SMG_M45"].Rat_swap_ap = 2
-	g_Classes["MoW_SMG_M45"].PointBlankBonus = 1
-	g_Classes["MoW_SMG_M45"].PBbonus_base = 9
-	g_Classes["MoW_SMG_M45"].OverwatchAngle = 1414
-	g_Classes["MoW_SMG_M45"].BuckshotConeAngle = 1600
-	g_Classes["MoW_SMG_M45"].burst_shots = 3
-	g_Classes["MoW_SMG_M45"].auto_shots = 10
-	g_Classes["MoW_SMG_M45"].long_shots = 6
-	g_Classes["MoW_SMG_M45"].auto_recoil_delta = 99
-	g_Classes["MoW_SMG_M45"].burst_recoil_delta = 99
-	g_Classes["MoW_SMG_M45"].long_recoil_delta = 100
-	g_Classes["MoW_SMG_M45"].wep_base_recoil_mul = 115
-	g_Classes["MoW_SMG_M45"].weigth_held_mul = 124
-	g_Classes["MoW_SMG_M45"].wep_base_hip_mul = 110
-	g_Classes["MoW_SMG_M45"].wep_base_snapshot_mul = 86
-	g_Classes["MoW_SMG_M45"].ShootAP = 3000
-	g_Classes["MoW_SMG_M45"].PenetrationClass = 1
-	g_Classes["MoW_SMG_M45"].rat_scope_block = false
-	g_Classes["MoW_SMG_M45"].recoil_mechanism = "Blowback"
-	g_Classes["MoW_SMG_M45"].Rat_cycling = "Auto"
-	if not string.find(g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "", "<description_hints>") then
-		g_Classes["MoW_SMG_M45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "") })
-	end
-
 	g_Classes["MoW_SMG_vz26"].is_tog_patched = true
 	g_Classes["MoW_SMG_vz26"].rat_barrel_len = 280
 	g_Classes["MoW_SMG_vz26"].rat_weigth = 3200
@@ -693,6 +660,39 @@ function RatoMoWWeapons()
 	g_Classes["MoW_SMG_vz26"].Rat_cycling = "Auto"
 	if not string.find(g_Classes["MoW_SMG_vz26"].AdditionalHint and g_Classes["MoW_SMG_vz26"].AdditionalHint[2] or "", "<description_hints>") then
 		g_Classes["MoW_SMG_vz26"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_vz26"].AdditionalHint and g_Classes["MoW_SMG_vz26"].AdditionalHint[2] or "") })
+	end
+
+	g_Classes["MoW_SMG_M45"].is_tog_patched = true
+	g_Classes["MoW_SMG_M45"].rat_barrel_len = 210
+	g_Classes["MoW_SMG_M45"].rat_weigth = 3400
+	g_Classes["MoW_SMG_M45"].Cost = 1320
+	g_Classes["MoW_SMG_M45"].Damage = 17
+	g_Classes["MoW_SMG_M45"].WeaponRange = 19
+	g_Classes["MoW_SMG_M45"].Noise = 17
+	g_Classes["MoW_SMG_M45"].AimAccuracy = 2
+	g_Classes["MoW_SMG_M45"].APStance = 2
+	g_Classes["MoW_SMG_M45"].Rat_swap_ap = 2
+	g_Classes["MoW_SMG_M45"].PointBlankBonus = 1
+	g_Classes["MoW_SMG_M45"].PBbonus_base = 9
+	g_Classes["MoW_SMG_M45"].OverwatchAngle = 1414
+	g_Classes["MoW_SMG_M45"].BuckshotConeAngle = 1600
+	g_Classes["MoW_SMG_M45"].burst_shots = 3
+	g_Classes["MoW_SMG_M45"].auto_shots = 10
+	g_Classes["MoW_SMG_M45"].long_shots = 6
+	g_Classes["MoW_SMG_M45"].auto_recoil_delta = 99
+	g_Classes["MoW_SMG_M45"].burst_recoil_delta = 99
+	g_Classes["MoW_SMG_M45"].long_recoil_delta = 100
+	g_Classes["MoW_SMG_M45"].wep_base_recoil_mul = 115
+	g_Classes["MoW_SMG_M45"].weigth_held_mul = 124
+	g_Classes["MoW_SMG_M45"].wep_base_hip_mul = 110
+	g_Classes["MoW_SMG_M45"].wep_base_snapshot_mul = 86
+	g_Classes["MoW_SMG_M45"].ShootAP = 3000
+	g_Classes["MoW_SMG_M45"].PenetrationClass = 1
+	g_Classes["MoW_SMG_M45"].rat_scope_block = false
+	g_Classes["MoW_SMG_M45"].recoil_mechanism = "Blowback"
+	g_Classes["MoW_SMG_M45"].Rat_cycling = "Auto"
+	if not string.find(g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "", "<description_hints>") then
+		g_Classes["MoW_SMG_M45"].AdditionalHint = T({ "<description_hints>\n" .. (g_Classes["MoW_SMG_M45"].AdditionalHint and g_Classes["MoW_SMG_M45"].AdditionalHint[2] or "") })
 	end
 
 	g_Classes["MoW_SMG_UMP"].is_tog_patched = true
