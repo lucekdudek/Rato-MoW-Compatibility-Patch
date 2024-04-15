@@ -500,7 +500,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Sniper_SPR"].is_tog_patched = true
 	g_Classes["MoW_Sniper_SPR"].rat_barrel_len = 610
 	g_Classes["MoW_Sniper_SPR"].rat_weigth = 6000
-	g_Classes["MoW_Sniper_SPR"].Cost = 4600
+	g_Classes["MoW_Sniper_SPR"].Cost = 10350
 	g_Classes["MoW_Sniper_SPR"].Damage = 35
 	g_Classes["MoW_Sniper_SPR"].WeaponRange = 32
 	g_Classes["MoW_Sniper_SPR"].Noise = 30
@@ -533,7 +533,7 @@ function RatoMoWWeapons()
 	g_Classes["MoW_Sniper_SR25"].is_tog_patched = true
 	g_Classes["MoW_Sniper_SR25"].rat_barrel_len = 510
 	g_Classes["MoW_Sniper_SR25"].rat_weigth = 5000
-	g_Classes["MoW_Sniper_SR25"].Cost = 12800
+	g_Classes["MoW_Sniper_SR25"].Cost = 14400
 	g_Classes["MoW_Sniper_SR25"].Damage = 33
 	g_Classes["MoW_Sniper_SR25"].WeaponRange = 30
 	g_Classes["MoW_Sniper_SR25"].Noise = 20
