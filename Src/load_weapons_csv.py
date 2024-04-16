@@ -4,6 +4,7 @@ FILE_NAME = "MoW_Weapons.csv"
 
 ID = "Id"
 IS_PATCHED = "is_tog_patched"
+CAN_SHOP = "CanAppearInShop"
 BARREL_LEN = "rat_barrel_len"
 WEIGTH = "rat_weigth"
 COST = "Cost"
@@ -73,11 +74,12 @@ def get_weapon_lua_snipet(w):
     result = ""
 
     if w[IS_PATCHED] != "true":
-        result += f'\tg_Classes["{w[ID]}"].{IS_PATCHED} = {w[IS_PATCHED]}\n'
+        result += f'\t{w[ID]}.{IS_PATCHED} = {w[IS_PATCHED]}\n'
         return result
 
     for KEY in [
         IS_PATCHED,
+        CAN_SHOP,
         BARREL_LEN,
         WEIGTH,
         COST,
@@ -106,16 +108,16 @@ def get_weapon_lua_snipet(w):
         PENETRATIONCLASS,
         SCOPE_BLOCK,
     ]:
-        result += f'\tg_Classes["{w[ID]}"].{KEY} = {w[KEY]}\n'
+        result += f'\t{w[ID]}.{KEY} = {w[KEY]}\n'
 
     for KEY in [
         RECOIL_MECHANISM,
         CYCLING,
     ]:
-        result += f'\tg_Classes["{w[ID]}"].{KEY} = "{w[KEY]}"\n'
+        result += f'\t{w[ID]}.{KEY} = "{w[KEY]}"\n'
 
-    result += f'\tif not string.find(g_Classes["{w[ID]}"].AdditionalHint and g_Classes["{w[ID]}"].AdditionalHint[2] or "", "<description_hints>") then\n'
-    result += f'\t\tg_Classes["{w[ID]}"].AdditionalHint = T({{ "<description_hints>\\n" .. (g_Classes["{w[ID]}"].AdditionalHint and g_Classes["{w[ID]}"].AdditionalHint[2] or "") }})\n'
+    result += f'\tif not string.find({w[ID]}.AdditionalHint and {w[ID]}.AdditionalHint[2] or "", "<description_hints>") then\n'
+    result += f'\t\t{w[ID]}.AdditionalHint = T({{ "<description_hints>\\n" .. ({w[ID]}.AdditionalHint and {w[ID]}.AdditionalHint[2] or "") }})\n'
     result += f"\tend\n"
 
     return result
@@ -125,6 +127,8 @@ print("-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========\n\n")
 with open(FILE_NAME, newline="") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=";")
     print("function RatoMoWWeapons()")
+    print('\tprint("Running RatoMoWWeapons...")')
     for attachement in reader:
         print(get_weapon_lua_snipet(attachement))
+    print('\tprint("Running RatoMoWWeapons Done")')
     print("end")

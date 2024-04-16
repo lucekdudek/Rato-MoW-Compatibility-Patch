@@ -2,6 +2,7 @@
 
 
 function RatoMoWComponents()
+	print("Running RatoMoWComponents...")
 	WeaponComponents["MoW_Bar_103DD"].ModificationEffects = table.copy(WeaponComponents["BarrelShort"].ModificationEffects)
 	WeaponComponents["MoW_Bar_103DD"].Parameters = table.copy(WeaponComponents["BarrelShort"].Parameters)
 	WeaponComponents["MoW_Bar_103DD"]:PostLoad()
@@ -996,4 +997,5 @@ function RatoMoWComponents()
 	WeaponComponents["MoW_Und_sKAC"].Parameters = table.copy(WeaponComponents["VerticalGrip"].Parameters)
 	WeaponComponents["MoW_Und_sKAC"]:PostLoad()
 
+	print("Running RatoMoWComponents Done")
 end

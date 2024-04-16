@@ -69,6 +69,8 @@ print("-- ========== THIS IS AN AUTOMATICALLY GENERATED FILE! ==========\n\n")
 with open(FILE_NAME, newline="") as csvfile:
     reader = csv.DictReader(csvfile, delimiter=";")
     print("function RatoMoWComponents()")
+    print('\tprint("Running RatoMoWComponents...")')
     for attachement in reader:
         print(get_attachement_lua_snipet(attachement))
+    print('\tprint("Running RatoMoWComponents Done")')
     print("end")
