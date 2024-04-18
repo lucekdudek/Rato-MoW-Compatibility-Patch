@@ -1027,7 +1027,7 @@ function RatoMoWWeapons()
 	MoW_Pistol_P228.CanAppearInShop = true
 	MoW_Pistol_P228.rat_barrel_len = 100
 	MoW_Pistol_P228.rat_weigth = 800
-	MoW_Pistol_P228.Cost = 2800
+	MoW_Pistol_P228.Cost = 3120
 	MoW_Pistol_P228.Damage = 16
 	MoW_Pistol_P228.WeaponRange = 15
 	MoW_Pistol_P228.Noise = 12
@@ -1367,7 +1367,7 @@ function RatoMoWWeapons()
 	MoW_Pistol_P226R.CanAppearInShop = true
 	MoW_Pistol_P226R.rat_barrel_len = 110
 	MoW_Pistol_P226R.rat_weigth = 1000
-	MoW_Pistol_P226R.Cost = 4000
+	MoW_Pistol_P226R.Cost = 4520
 	MoW_Pistol_P226R.Damage = 16
 	MoW_Pistol_P226R.WeaponRange = 15
 	MoW_Pistol_P226R.Noise = 12
@@ -1464,6 +1464,24 @@ function RatoMoWWeapons()
 	if not string.find(MoW_Pistol_WCVE.AdditionalHint and MoW_Pistol_WCVE.AdditionalHint[2] or "", "<description_hints>") then
 		MoW_Pistol_WCVE.AdditionalHint = T({ "<description_hints>\n" .. (MoW_Pistol_WCVE.AdditionalHint and MoW_Pistol_WCVE.AdditionalHint[2] or "") })
 	end
+
+	MoW_AR_HK417.is_tog_patched = false
+	MoW_AR_HK417.CanAppearInShop = false
+
+	MoW_Sniper_vz54.is_tog_patched = false
+	MoW_Sniper_vz54.CanAppearInShop = false
+
+	MoW_Sniper_M200.is_tog_patched = false
+	MoW_Sniper_M200.CanAppearInShop = false
+
+	MoW_MG_AANF1.is_tog_patched = false
+	MoW_MG_AANF1.CanAppearInShop = false
+
+	MoW_SMG_Bizon.is_tog_patched = false
+	MoW_SMG_Bizon.CanAppearInShop = false
+
+	MoW_Pistol_PM.is_tog_patched = false
+	MoW_Pistol_PM.CanAppearInShop = false
 
 	print("Running RatoMoWWeapons Done")
 end

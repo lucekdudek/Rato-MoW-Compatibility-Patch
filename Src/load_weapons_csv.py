@@ -75,6 +75,7 @@ def get_weapon_lua_snipet(w):
 
     if w[IS_PATCHED] != "true":
         result += f'\t{w[ID]}.{IS_PATCHED} = {w[IS_PATCHED]}\n'
+        result += f'\t{w[ID]}.{CAN_SHOP} = {w[CAN_SHOP]}\n'
         return result
 
     for KEY in [

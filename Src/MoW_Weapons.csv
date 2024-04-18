@@ -29,7 +29,7 @@ MoW_Shot_MP153;true;true;660;3500;10000;28;12;25;4;4;3;1;-4;823;720;Gas_Operated
 MoW_Pistol_TT33;true;true;110;1100;1200;17;16;16;2;1;1;1;13;2212;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;130;107;116;71;4000;1;1;false
 MoW_Pistol_M1911A1;true;true;127;1200;2000;19;14;12;3;1;1;1;12;2174;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;129;108;115;72;4000;1;1;false
 MoW_Pistol_CZ75B;true;true;120;1200;2400;16;15;14;3;1;1;1;13;2186;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;129;108;115;72;4000;1;1;false
-MoW_Pistol_P228;true;true;100;800;2800;16;15;12;4;1;1;1;13;2256;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;132;105;116;69;4000;1;1;false
+MoW_Pistol_P228;true;true;100;800;3120;16;15;12;4;1;1;1;13;2256;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;132;105;116;69;4000;1;1;false
 MoW_Pistol_G19;true;true;100;800;2956;16;15;14;5;1;1;1;13;2256;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;132;105;116;69;4000;1;1;false
 MoW_Pistol_G17;true;true;110;800;2996;16;15;21;5;1;1;1;13;2239;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;131;105;116;70;4000;1;1;false
 MoW_Pistol_P220;true;true;110;900;3120;19;14;21;3;1;1;1;13;2230;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;131;106;116;70;4000;1;1;false
@@ -39,6 +39,12 @@ MoW_Pistol_SP1;true;true;120;1100;3400;16;15;12;3;1;1;1;13;2195;1600;Short_Recoi
 MoW_Pistol_P320F;true;true;120;900;3476;16;15;14;5;1;1;1;13;2213;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;130;106;115;71;4000;1;1;false
 MoW_Pistol_P320;true;true;120;1200;3516;16;15;14;5;1;1;1;13;2186;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;129;108;115;72;4000;1;1;false
 MoW_Pistol_GSH18;true;true;100;800;3600;17;15;12;4;1;1;1;13;2256;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;132;105;116;69;4000;1;1;false
-MoW_Pistol_P226R;true;true;110;1000;4000;16;15;12;5;1;1;1;13;2221;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;130;107;116;71;4000;1;1;false
+MoW_Pistol_P226R;true;true;110;1000;4520;16;15;12;5;1;1;1;13;2221;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;130;107;116;71;4000;1;1;false
 MoW_Pistol_KDW;true;true;130;1300;4900;19;14;12;5;1;1;1;12;2160;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;128;109;114;73;4000;1;1;false
 MoW_Pistol_WCVE;true;true;127;1100;5600;19;14;21;5;1;1;1;12;2183;1600;Short_Recoil;SemiAuto;3;10;6;100;100;100;129;107;115;72;4000;1;1;false
+MoW_AR_HK417;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MoW_Sniper_vz54;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MoW_Sniper_M200;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MoW_MG_AANF1;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MoW_SMG_Bizon;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MoW_Pistol_PM;false;false;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

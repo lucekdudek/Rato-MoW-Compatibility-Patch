@@ -147,6 +147,9 @@ MoW_Muz_Vector;Muzzle;['CritBonusSameTarget', 'SilentShots'];{'crit': 25};Suppre
 MoW_Muz_Warcomp;Muzzle;['AccuracyBonusSameTarget'];{'cth': 10};Compensator;FALSE;;;;;;
 MoW_NoMuz_MP9;Muzzle;;;;FALSE;;;;;;
 MoW_Placeholder_Muzzle_1;Muzzle;;;;FALSE;;;;;;
+MoW_Muz_SDN6;Muzzle;['CritBonusSameTarget', 'SilentShots'];??;Suppressor;FALSE;;;;;;
+MoW_Muz_PBS9;Muzzle;['CritBonusSameTarget', 'SilentShots'];??;Suppressor;FALSE;;;;;;
+MoW_Muz_HK417_3P;Muzzle;['AccuracyBonusSameTarget'];??;Compensator;FALSE;;;;;;
 MoW_ScoR_HK416;Scope;;;;FALSE;;;;;;
 MoW_ScoR_HK416C;Scope;;;;FALSE;;;;;;
 MoW_ScoR_LMT;Scope;;;;FALSE;;;;;;

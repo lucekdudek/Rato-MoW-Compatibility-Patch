@@ -675,6 +675,18 @@ function RatoMoWComponents()
 	WeaponComponents["MoW_Placeholder_Muzzle_1"].Parameters = {}
 	WeaponComponents["MoW_Placeholder_Muzzle_1"]:PostLoad()
 
+	WeaponComponents["MoW_Muz_SDN6"].ModificationEffects = table.copy(WeaponComponents["Suppressor"].ModificationEffects)
+	WeaponComponents["MoW_Muz_SDN6"].Parameters = table.copy(WeaponComponents["Suppressor"].Parameters)
+	WeaponComponents["MoW_Muz_SDN6"]:PostLoad()
+
+	WeaponComponents["MoW_Muz_PBS9"].ModificationEffects = table.copy(WeaponComponents["Suppressor"].ModificationEffects)
+	WeaponComponents["MoW_Muz_PBS9"].Parameters = table.copy(WeaponComponents["Suppressor"].Parameters)
+	WeaponComponents["MoW_Muz_PBS9"]:PostLoad()
+
+	WeaponComponents["MoW_Muz_HK417_3P"].ModificationEffects = table.copy(WeaponComponents["Compensator"].ModificationEffects)
+	WeaponComponents["MoW_Muz_HK417_3P"].Parameters = table.copy(WeaponComponents["Compensator"].Parameters)
+	WeaponComponents["MoW_Muz_HK417_3P"]:PostLoad()
+
 	WeaponComponents["MoW_ScoR_HK416"].ModificationEffects = {}
 	WeaponComponents["MoW_ScoR_HK416"].Parameters = {}
 	WeaponComponents["MoW_ScoR_HK416"]:PostLoad()
