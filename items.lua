@@ -11,4 +11,8 @@ return {
 		'name', "Main",
 		'CodeFileName', "Code/Main.lua",
 	}),
+	PlaceObj('ModItemCode', {
+		'name', "REW",
+		'CodeFileName', "Code/REW.lua",
+	}),
 }
