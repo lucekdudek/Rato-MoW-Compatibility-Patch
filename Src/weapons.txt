@@ -1,0 +1,73 @@
+> SMG
+>> MoW_SMG_M45 Cost: 90 / 90 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_vz26 Cost: 800 / 800 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_Bizon Cost: 1140 / 1140 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_UMP Cost: 2200 / 2200 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_Vector45 Cost: 2200 / 2200 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_APC9k Cost: 2750 / 2750 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_MP9 Cost: 2900 / 2900 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_SMG_MP7A1 Cost: 3800 / 3800 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_SMG_HK416C Cost: 6700 / 6700 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_SMG_HB Cost: 11300 / 11300 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+
+> Handgun
+>> MoW_Pistol_TT33 Cost: 300 / 300 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_Police Cost: 400 / 400 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_M1911A1 Cost: 500 / 500 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_PM Cost: 500 / 500 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_CZ75B Cost: 600 / 600 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_G19 Cost: 739 / 739 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P99 Cost: 739 / 739 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_G17 Cost: 749 / 749 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P220 Cost: 780 / 780 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P228 Cost: 780 / 780 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_G19x Cost: 788 / 788 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_G45 Cost: 789 / 789 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_SP1 Cost: 850 / 850 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P320F Cost: 869 / 869 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P320 Cost: 879 / 879 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_GSH18 Cost: 900 / 900 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_PB Cost: 960 / 960 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_P226R Cost: 1130 / 1130 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_KDW Cost: 1400 / 1400 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+>> MoW_Pistol_WCVE Cost: 1600 / 1600 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+
+> Shotgun
+>> MoW_Shot_MP153 Cost: 2000 / 2000 CanAppearInShop: true PenetrationClass 1 base_drop_chance 12
+
+> MachineGun
+>> MoW_MG_RPD Cost: 8700 / 8700 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_MG_PKP Cost: 9500 / 9500 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_MG_AANF1 Cost: 9800 / 9800 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_MG_NG5 Cost: 10700 / 10700 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+
+> HeavyWeapon40mmGrenade
+>> MoW_GL_HK69 Cost: 5000 / 5000 CanAppearInShop: true PenetrationClass 4 base_drop_chance 12
+
+> Sniper
+>> MoW_Sniper_vz54 Cost: 1100 / 1100 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_Sniper_SPR Cost: 2300 / 2300 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_Sniper_SR25 Cost: 3200 / 3200 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_Sniper_Lynx Cost: 12000 / 12000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_Sniper_M200 Cost: 12000 / 12000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+
+> AssaultRifle
+>> MoW_AR_M723 Cost: 2250 / 2250 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_AK103 Cost: 3000 / 3000 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_ACE22 Cost: 3050 / 3050 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_ACE32 Cost: 3120 / 3120 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_M16A4 Cost: 3400 / 3400 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_ACE52 Cost: 3430 / 3430 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_AK101 Cost: 3800 / 3800 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_AK74M Cost: 3800 / 3800 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_M4 Cost: 4500 / 4500 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_MARSL Cost: 4500 / 4500 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_TAR21 Cost: 4700 / 4700 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_HK417 Cost: 6750 / 6750 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_HK416 Cost: 8900 / 8900 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_AK15 Cost: 9000 / 9000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_AK12 Cost: 10000 / 10000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_AK15k Cost: 10000 / 10000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_ACR Cost: 10700 / 10700 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12
+>> MoW_AR_AK12K Cost: 11000 / 11000 CanAppearInShop: true PenetrationClass 3 base_drop_chance 12
+>> MoW_AR_URGI Cost: 11000 / 11000 CanAppearInShop: true PenetrationClass 2 base_drop_chance 12

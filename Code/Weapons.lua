@@ -1468,6 +1468,15 @@ function RatoMoWWeapons()
 	MoW_AR_HK417.is_tog_patched = false
 	MoW_AR_HK417.CanAppearInShop = false
 
+	MoW_AR_AK101.is_tog_patched = false
+	MoW_AR_AK101.CanAppearInShop = false
+
+	MoW_AR_ACR.is_tog_patched = false
+	MoW_AR_ACR.CanAppearInShop = false
+
+	MoW_AR_URGI.is_tog_patched = false
+	MoW_AR_URGI.CanAppearInShop = false
+	
 	MoW_Sniper_vz54.is_tog_patched = false
 	MoW_Sniper_vz54.CanAppearInShop = false
 
@@ -1477,11 +1486,35 @@ function RatoMoWWeapons()
 	MoW_MG_AANF1.is_tog_patched = false
 	MoW_MG_AANF1.CanAppearInShop = false
 
+	MoW_MG_RPD.is_tog_patched = false
+	MoW_MG_RPD.CanAppearInShop = false
+
+	MoW_MG_NG5.is_tog_patched = false
+	MoW_MG_NG5.CanAppearInShop = false
+
 	MoW_SMG_Bizon.is_tog_patched = false
 	MoW_SMG_Bizon.CanAppearInShop = false
 
+	MoW_SMG_MP7A1.is_tog_patched = false
+	MoW_SMG_MP7A1.CanAppearInShop = false
+
+	MoW_SMG_HB.is_tog_patched = false
+	MoW_SMG_HB.CanAppearInShop = false
+
 	MoW_Pistol_PM.is_tog_patched = false
 	MoW_Pistol_PM.CanAppearInShop = false
+
+	MoW_Pistol_PB.is_tog_patched = false
+	MoW_Pistol_PB.CanAppearInShop = false
+
+	MoW_Pistol_Police.is_tog_patched = false
+	MoW_Pistol_Police.CanAppearInShop = false
+
+	MoW_Pistol_P99.is_tog_patched = false
+	MoW_Pistol_P99.CanAppearInShop = false
+
+	-- MoW_GL_HK69.is_tog_patched = false
+	-- MoW_GL_HK69.CanAppearInShop = false
 
 	print("Running RatoMoWWeapons Done")
 end
